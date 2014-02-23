@@ -1,0 +1,188 @@
+html {
+  	font-size:60%;
+  	margin: 50px auto;
+  	max-width:900px;
+  	min-width:320px;
+}
+.branding {
+	display: inline;
+	float: left;
+	left: auto;
+	margin-top: auto;
+	margin-right: 10px;
+}
+.logo {
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	line-height: 0;
+}
+.motto, h1 + strong {
+  	font-size:1.15rem;
+  	font-weight:200;
+  	line-height:0;
+  	text-transform:uppercase;
+  	position: relative;
+  	right: 18px;
+}
+.header .social {
+  	float:right;
+ 	margin:15px 0 0;
+}
+.header .social a {
+  	background-color:#444444;
+  	background-position:initial initial;
+  	background-repeat:initial initial;
+  	color:#F7F7F7;
+  	display:inline-block;
+  	height:24px;
+  	line-height:2.4rem;
+  	margin:0 0 0 -2px;
+  	width:24px;
+}
+#divider-top {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.article-title {
+	font-size: 2.0em;
+	display:block;
+	margin: auto auto 10px auto;
+	color: #000000;
+}
+.print {
+  	color:#ABABAB;
+  	float:right;
+  	padding:0 0 0 14px;
+  	position:relative;
+  	transition:none;
+}
+.article-meta{
+	display:block;
+	font-size:1.0rem;
+	font-weight:200;
+	line-height:1.5rem;
+	text-transform:uppercase;
+	left: 15px;
+} 
+p { 
+	text-indent : 20px; 
+}
+body {
+  	color:#555555;
+  	font-family:'Source Sans Pro', sans-serif;
+  	font-size:2rem;
+  	font-weight:400;
+  	line-height:2.5rem;
+  	margin:0;
+  	padding:0;
+}
+.foodimage {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.content {
+  	margin:0 auto;
+  	max-width:900px;
+  	min-width:320px;
+}
+.background {
+	background: url(Notebook-Paper.png) no-repeat;
+	background-size: contain;
+	width: 900px;
+	height: 302px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	background-image: url(Empty-Checkbox.png);
+	background-repeat: no-repeat;
+	background-position: 0 0.4em;
+	padding-left: 1em;
+}
+#recipe {
+	position: relative;
+	line-height: 1.66em;
+	left: 60px;
+	top: 35px;
+	width: 700px;
+	
+    -moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+    
+    -moz-column-gap:30px; /* Firefox */
+    -webkit-column-gap:30px; /* Safari and Chrome */
+    column-gap:30px;
+    
+    -moz-column-rule:4px; /* Firefox */
+    -webkit-column-rule:4px; /* Safari and Chrome */
+    column-rule:4px;
+	visibility: visible;
+	overflow: visible;
+	padding-right: 20px;
+}
+#divider-bottom {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.author-image {
+	position: relative;
+	top: 5px;
+}
+.author-name {
+	font-weight: 300;
+	font-size: 175%;
+	position: relative;
+	left: 85px;
+	bottom: 70px;
+}
+.author-info {
+	position: relative;
+	left: 85px;
+	bottom: 65px;
+	width: 550px;
+	font-weight: 200;
+}
+.share-button {
+	position: relative;
+	display: inline-block;
+    bottom: 125px;
+    height: 60px;
+    width: 200px;
+    background: #BB7056;
+     
+    color: #ffffff;
+    text-align: center;
+	text-transform: uppercase;
+	font: normal x-large "Source Sans Pro";
+	float: right;
+	text-decoration: none;
+	line-height: 2.5;
+}
+a.share-button {
+    text-decoration: none;
+}
+.footer {
+  	border-top-color:#EDEDED;
+  	border-top-style:solid;
+  	border-top-width:1px;
+  	color:#AAAAAA;
+}
+#footer-image {
+	position: relative;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	left: 440px;
+	bottom: 15px;
+}
+#footer-text {
+  	font-size: 1.5rem;
+  	text-align: center;
+  	width: 120px;
+  	margin-left: auto;
+  	margin-right: auto;
+	position: relative;
+}
